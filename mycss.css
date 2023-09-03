@@ -1,0 +1,224 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerLeft {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 290px;
+    height: 400px;
+
+}
+
+.containerRight {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    background: white;
+    width: 290px;
+    height: 400px;
+    box-shadow: 5px 5px 5px hsl(221, 100%, 96%);
+
+}
+
+.circle {
+    top: 90px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+
+}
+
+.yourresult {
+    position: absolute;
+    top: 10px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.my76 {
+    position: absolute;
+    top: 80px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+}
+
+.of100 {
+    position: absolute;
+    top: 180px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.great {
+    position: absolute;
+    top: 230px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.youscore {
+    text-align: center;
+    padding: 0 55px;
+    position: absolute;
+    top: 290px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.summary {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+
+}
+
+.reaction {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.visual {
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.myImg {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+.reactionFont {
+    position: absolute;
+    top: -5px;
+    left: 42px;
+    color: hsl(0, 100%, 67%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.memoryFont {
+    position: absolute;
+    top: -5px;
+    left: 42px;
+    color: hsl(39, 100%, 56%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.verbalFont {
+    position: absolute;
+    top: -5px;
+    left: 42px;
+    color: hsl(166, 100%, 37%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.visualFont {
+    position: absolute;
+    top: -5px;
+    left: 42px;
+    color: hsl(234, 85%, 45%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.mydiv100 {
+    position: absolute;
+    top: -4px;
+    left: 200px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+
+}
+
+.myBold {
+    position: absolute;
+    top: 0px;
+    left: -24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+}
+
+.continue {
+    position: absolute;
+    width: 250px;
+    height: 45px;
+    top: 330px;
+    left: 35px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+.continue:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
+@media (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
